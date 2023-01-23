@@ -38,7 +38,7 @@ function createWindow () {
 app.whenReady().then(() => {
 
   // open, hide windows on shortcut
-  globalShortcut.register('Alt+CommandOrControl+H', () => {
+  globalShortcut.register('CommandOrControl+space', () => {
 
     // show or hide the window
     if (windowVisible) {
