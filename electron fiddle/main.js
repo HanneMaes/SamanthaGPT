@@ -21,6 +21,7 @@ function createWindow () {
       symbolColor: '#f0d6b4',
       height: 30
     },
+    // icon: path.join(__dirname, 'icons/icon.svg'),
   })
 
   // and load the index.html of the app.
@@ -38,7 +39,8 @@ function createWindow () {
 app.whenReady().then(() => {
 
   // open, hide windows on shortcut
-  globalShortcut.register('CommandOrControl+space', () => {
+  // globalShortcut.register('CommandOrControl+space', () => {
+  globalShortcut.register('Alt+p', () => {
 
     // show or hide the window
     if (windowVisible) {
