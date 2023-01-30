@@ -14,4 +14,3 @@ Includes tray icon.<br>
 
 <h2>Todo</h2>
 - Minimize instead of close when pressing the X button, quitting can be done trough the system tray.
-- Add a shortcut to open the prev session
