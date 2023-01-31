@@ -1,0 +1,27 @@
+{
+  "name": "samantha-gpt",
+  "productName": "samantha-gpt",
+  "description": "A.I. personal assistent powered by ChatGPT",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "Hanne Maes",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "electron": "^22.0.2"
+  },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "electron-forge": "^5.2.4",
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}

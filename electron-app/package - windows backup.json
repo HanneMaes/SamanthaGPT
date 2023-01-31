@@ -1,0 +1,19 @@
+{
+  "name": "samanthe-gpt",
+  "productName": "SamanthaGPT",
+  "description": "A.I. personal assistent powered by ChatGPT",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.1",
+  "author": "Hanne Maes",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^22.0.2"
+  },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+  }
+}
