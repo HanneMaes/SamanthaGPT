@@ -11,15 +11,17 @@ function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
     width: 600,
-    height: 1000,
+    height: 700,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     },
     titleBarStyle: 'hidden',
     titleBarOverlay: {
-      color: '#c44524',
-      symbolColor: '#f0d6b4',
-      height: 30
+      // color: '#c44524',
+      // symbolColor: '#f0d6b4',
+      color: '#343541',
+      symbolColor: '#c44524',
+      height: 43,
     },
     icon: 'icons/icon.png',
   })
@@ -38,8 +40,7 @@ function createWindow () {
 app.whenReady().then(() => {
 
   // open, hide windows on shortcut
-  // globalShortcut.register('CommandOrControl+space', () => {
-  globalShortcut.register('Alt+p', () => {
+  globalShortcut.register('Alt+p', () => { // PREV chat
     showHideWindow()
   })
 
