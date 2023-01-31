@@ -9,8 +9,5 @@ Includes tray icon.<br>
 <h2>Run app</h2>
 `npm start`
 
-<h2>Create a distributable</h2>
-`npm run make`
-
 <h2>Todo</h2>
 - Minimize instead of close when pressing the X button, quitting can be done trough the system tray.
