@@ -6,6 +6,9 @@ Includes tray icon.<br>
 <br>
 <img src="her movie.jpg">
 
+<h2>Install dependencies</h2>
+`npm install`
+
 <h2>Run app</h2>
 `npm start`
 
