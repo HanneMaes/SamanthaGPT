@@ -13,5 +13,7 @@ Includes tray icon.<br>
 `npm start`
 
 <h2>Todo</h2>
+
 - Minimize instead of close when pressing the X button, quitting can be done trough the system tray.
+
 - Pressing the shortcut when the window is minimized hides it, but should show it.
