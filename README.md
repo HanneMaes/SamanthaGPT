@@ -7,10 +7,13 @@ Includes tray icon.<br>
 <img src="her movie.jpg">
 
 <h2>Install dependencies</h2>
-`npm install`
+`$ npm install`
 
 <h2>Run app</h2>
-`npm start`
+`$ npm start`
 
 <h2>Todo</h2>
+
 - Minimize instead of close when pressing the X button, quitting can be done trough the system tray.
+
+- Pressing the shortcut when the window is minimized hides it, but should show it.
