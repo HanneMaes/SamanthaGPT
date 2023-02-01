@@ -7,10 +7,10 @@ Includes tray icon.<br>
 <img src="her movie.jpg">
 
 <h2>Install dependencies</h2>
-```npm install```
+`npm install`
 
 <h2>Run app</h2>
-```npm start```
+`npm start`
 
 <h2>Todo</h2>
 
