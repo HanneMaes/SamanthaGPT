@@ -12,6 +12,10 @@ Includes tray icon.<br>
 <h2>Run app</h2>
 `$ npm start`
 
+<h2>Autostart</h2>
+Linux: ``
+Windows: `launchOnWindowsNoTerminal.vbs` needs to be in the autostart folder, it doesn't need to be copied every thing a change is made to the app
+
 <h2>Todo</h2>
 
 - Minimize instead of close when pressing the X button, quitting can be done trough the system tray.

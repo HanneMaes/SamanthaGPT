@@ -15,14 +15,13 @@ function createWindow () {
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     },
-    titleBarStyle: 'hidden',
-    titleBarOverlay: {
-      // color: '#c44524',
-      // symbolColor: '#f0d6b4',
-      color: '#343541',
-      symbolColor: '#c44524',
-      height: 43,
-    },
+    // titleBarStyle: 'hidden',
+    // titleBarOverlay: {
+    //   color: '#343541',
+    //   symbolColor: '#c44524',
+    //   height: 43,
+    // },
+    autoHideMenuBar: true,
     icon: 'icons/icon.png',
   })
 
