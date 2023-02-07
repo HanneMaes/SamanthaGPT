@@ -11,7 +11,7 @@ Includes tray icon.<br>
 2. Run: `$ cd electron-app && npm start`
 
 <h2>Autostart</h2>
-Linux: ``
+Linux: add `launchOnLinux.sh` to startup scripts
 Windows: `launchOnWindowsNoTerminal.vbs` needs to be in the autostart folder, it doesn't need to be copied every thing a change is made to the app
 
 ---
